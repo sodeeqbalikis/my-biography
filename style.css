@@ -1,0 +1,23 @@
+h1{
+text-decoration:underline;
+}
+body{
+    background-color: lavenderblush;
+}
+a:link{
+    text-transform: uppercase;
+    color: grey;
+    background-color:transparent;
+    text-decoration: none;
+}
+a:visited{
+color: royalblue;
+background-color: transparent;
+text-decoration: none;
+}
+a:hover{
+    color: lightcoral;
+    background-color: gray;
+    text-decoration: underline;
+    
+}

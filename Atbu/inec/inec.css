@@ -1,0 +1,97 @@
+/* css reset */
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+   
+    /* display: inline; */
+    /* overflow: hidden; */
+}
+header > #covid{
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: rgb(153, 6, 6);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 18px 28px 8px 28px;
+    font-size: small;
+}
+header > .heading{
+    border: 1px solid white;
+    background-color: white;
+    padding: 5px 5px 5px 30px;
+    box-shadow: 0px 0px 5px 0px black;
+    
+    overflow: hidden;
+}
+header > nav{
+    float: right;
+}
+header > nav > li{
+    display: inline;
+    padding: 10px;
+}
+header > nav > li > a:hover{
+    color: green;
+}
+.banner{
+    background-image: url(background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    padding: 30px;
+}
+main{
+    border: 1px solid black;
+    display: inline;
+    overflow: hidden;
+    width: 100px;
+
+}
+main > h1 {
+    text-align: center;
+    font-size: medium;
+}
+main > .sidebar{
+    padding: 20px;
+    display: inline;
+    width: 40%;
+}
+main > .content{
+    width: 40%;
+    display: inline;
+    float: right;
+    padding:40px;
+}
+hr{
+    border: 1px solid green;
+}
+footer{
+    border: 1px solid white;
+    display: inline-block;
+}
+footer {
+   padding: 20px;
+   border: 1px;
+   display: inline;
+
+}
+footer > .logo {
+display:inline-block;
+padding: 20px;
+}
+footer > .contact{
+    display: inline-block;
+    padding: 20px;
+} 
+footer > .links{
+    display: inline-block;
+    padding: 20px;
+} 
+footer > .links > a:hover{
+color: green;
+}
